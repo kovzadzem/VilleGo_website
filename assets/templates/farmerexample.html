@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/farmerexampleglobals.css" />
+    <link rel="stylesheet" href="../css/farmerexamplestyle.css" />
+ </head>
+  <body>
+    <div class="screen">
+      <div class="div">
+        <div class="overlap"><div class="text-wrapper">თაფლი და ფუტკრის პროდუქტები</div></div>
+        <img class="rectangle" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/rectangle-2267.png" />
+        <div class="overlap-group">
+          <img class="img" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/rectangle-2321.png" />
+          <div class="fill-with-left-arrow" onclick="previousSlide()">
+            <img class="img-2" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/icons-arrow-left.svg" />
+          </div>
+          <div class="fill-with-right" onclick="nextSlide()">
+            <img class="img-2" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/icons-arrow-right.svg" />
+          </div>
+        </div>
+        <div class="text-wrapper-2">გულა</div>
+        <div class="overlap-2">
+          <div class="rectangle-2"></div>
+          <div class="ellipse" id="price-min-handle"></div>
+          <div class="ellipse-2" id="price-max-handle"></div>
+        </div>
+        <div class="overlap-3">
+          <div class="text-wrapper-3">ფასი</div>
+          <div class="text-wrapper-4">მინ</div>
+          <div class="text-wrapper-5">მაქს</div>
+          <img class="line" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/line-9.svg" />
+          <img class="line-2" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/line-9.svg" />
+        </div>
+        <div class="overlap-4">
+          <div class="text-wrapper-6">ფასდაკლება</div>
+          <img class="line" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/line-9.svg" />
+          <img class="vector" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-27.svg" />
+        </div>
+        <p class="p">
+          თეიმურაზ ღოღობერიძე - ექსპერტი მეფუტკრეობის დარგში, პროფესიონალი მეფუტკრეა 60 წლიანი გამოცდილებით. ჩვენი
+          კომპანია ''გულა''(ს.კ.55001001916) დღეისათვის თაფლის წარმოების პარალელურად, ძირითად აწარმოებს მეფუტკრეობის
+          აპითერაპიულ პროდუქტებს, რომელთაც უმნიშვნელოვანესი ადგილი უკავიათ ადამიანის ჯანმრთელობის, რეპროდუქციის და
+          სიცოცხლის გახანგრძლივების საქმეში.
+        </p>
+        <div class="overlap-5">
+          <img class="group" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/group-246.png" />
+          <div class="text-wrapper-7">კონტაქტი:</div>
+          <div class="text-wrapper-8"> ქ.თბილისი, გოგებაშვილის ქ.28.</div>
+          <img class="group-2" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/group-234.png" />
+          <div class="text-wrapper-9">511 123 000</div>
+          <img class="subtract" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/subtract.svg" />
+          <div class="text-wrapper-10">gula@gmail.com</div>
+        </div>
+        <div class="overlap-6">
+          <div class="text-wrapper-11">რაოდენობა</div>
+          <div class="text-wrapper-12">მინ</div>
+          <div class="text-wrapper-13">მაქს</div>
+          <div class="text-wrapper-14">კგ</div>
+          <img class="line-3" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/line-12.svg" />
+          <img class="line-4" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/line-9.svg" />
+          <img class="line-5" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/line-9.svg" />
+        </div>
+        <div class="text-wrapper-15">ფასით გაფილტვრა</div>
+        <div class="text-wrapper-16">1ლ-1000ლ</div>
+        <div class="text-wrapper-17">1000ლ</div>
+        <div class="overlap-7">
+          <div class="rectangle-2"></div>
+          <div class="ellipse" id="quantity-min-handle"></div>
+          <div class="ellipse-2" id="quantity-max-handle"></div>
+        </div>
+        <div class="text-wrapper-18">რაოდენობა</div>
+        <div class="text-wrapper-19">1-1000კგ</div>
+        <div class="text-wrapper-20">1000კგ</div>
+        <div class="view">
+          <div class="overlap-group-2">
+            <div class="text-wrapper-21">ფილტრები</div>
+            <div class="apple filter-item" data-category="fruits"><img class="apple-2" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/apple.png" /></div>
+            <div class="text-wrapper-22 filter-item" data-category="fruits">ხილი და კენკრა</div>
+            <div class="potato filter-item" data-category="vegetables">
+              <img class="potato-2" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/potato.png" />
+            </div>
+            <div class="text-wrapper-23 filter-item" data-category="vegetables">ბოსტნეული და მწვანილი</div>
+            <div class="pork filter-item" data-category="meat"><img class="pork-2" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/pork.png" /></div>
+            <div class="fish filter-item" data-category="fish"><img class="fish-2" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/fish.png" /></div>
+            <div class="text-wrapper-24 filter-item" data-category="fish">თევზეული</div>
+            <img class="milk-carton filter-item" data-category="dairy" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/milk-carton.png" />
+            <div class="text-wrapper-25 filter-item" data-category="dairy">რძის პროდუქტები</div>
+            <div class="eggs filter-item" data-category="eggs"><img class="eggs-2" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/eggs.png" /></div>
+            <div class="text-wrapper-26 filter-item" data-category="eggs">კვერცხი</div>
+            <div class="cashew filter-item" data-category="grains">
+              <img class="cashew-2" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/cashew.png" />
+            </div>
+            <div class="text-wrapper-27 filter-item" data-category="grains">მარცვლეული და <br />პარკოსნები</div>
+            <img class="seed filter-item" data-category="seeds" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/seed.png" />
+            <img class="layer filter-item" data-category="juice" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/layer-2.png" />
+            <img class="page filter-item" data-category="wine" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/page-1.png" />
+            <img class="group-3 filter-item" data-category="flowers" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/group.png" />
+            <div class="overlap-8">
+              <img class="vector-2" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-3.svg" />
+              <img class="vector-3" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-6.svg" />
+              <img class="vector-4" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-4.svg" />
+            </div>
+            <img class="vector-5" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-1.svg" />
+            <img class="vector-6" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-1.svg" />
+            <img class="vector-7" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-1.svg" />
+            <img class="vector-8" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-1.svg" />
+            <img class="vector-9" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-1.svg" />
+            <img class="vector-10" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-1.svg" />
+            <img class="vector-11" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-1.svg" />
+            <img class="vector-12" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-1.svg" />
+            <img class="vector-13" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-1.svg" />
+            <img class="vector-14" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-1.svg" />
+            <img class="vector-15" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-1.svg" />
+            <img class="vector-16" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-1.svg" />
+            <div class="text-wrapper-28 filter-item" data-category="juice">ბუნებრივი წვენები</div>
+            <div class="text-wrapper-29 filter-item active" data-category="honey">თაფლი და ფუტკრის <br />პროდუქტები</div>
+            <div class="text-wrapper-30 filter-item" data-category="meat">ხორცისა და ფრინველის <br />პროდუქტები</div>
+            <div class="text-wrapper-31 filter-item" data-category="wine">ღვინო და ალკოჰოლური <br />სასმელები</div>
+            <div class="text-wrapper-32 filter-item" data-category="flowers">ყვავილები</div>
+            <div class="text-wrapper-33 filter-item" data-category="seeds">თესლები და ნერგები</div>
+          </div>
+        </div>
+        <div class="overlap-wrapper">
+          <div class="div-wrapper" onclick="goBack()"><div class="text-wrapper-34">უკან დაბრუნება</div></div>
+        </div>
+        <div class="products-grid">
+          <div class="product-card" data-category="honey">
+            <div class="overlap-9">
+              <div class="vector-wrapper" onclick="addToFavorites(this)">
+                <img class="vector-17" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector.svg" />
+              </div>
+              <div class="img-wrapper" onclick="addToCart(this)">
+                <img class="vector-18" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-25.svg" />
+              </div>
+              <div class="element">აკაციის თაფლი&nbsp;&nbsp;1 კგ</div>
+              <div class="text-wrapper-35">თაფლი</div>
+              <img class="rectangle-3" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/rectangle-2362-1.png" />
+              <div class="text-wrapper-36">20.0 ლ</div>
+              <img class="polygon" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/polygon-6.svg" />
+              <div class="overlap-group-3">
+                <div class="text-wrapper-37">5.0</div>
+                <img class="vector-19" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-10.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="product-card" data-category="honey">
+            <div class="overlap-10">
+              <div class="vector-wrapper" onclick="addToFavorites(this)">
+                <img class="vector-17" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector.svg" />
+              </div>
+              <div class="img-wrapper" onclick="addToCart(this)">
+                <img class="vector-18" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-37.svg" />
+              </div>
+              <div class="text-wrapper-38">ფიჭის ანათალი</div>
+              <div class="overlap-11">
+                <div class="overlap-12">
+                  <div class="text-wrapper-39">თაფლი</div>
+                  <img class="rectangle-4" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/rectangle-2362.png" />
+                </div>
+                <img class="polygon-2" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/polygon-6.svg" />
+                <div class="overlap-13">
+                  <div class="text-wrapper-37">5.0</div>
+                  <img class="vector-20" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-10.svg" />
+                </div>
+              </div>
+              <div class="text-wrapper-40">12.0 ლ</div>
+            </div>
+          </div>
+          <div class="product-card" data-category="honey">
+            <div class="overlap-14">
+              <div class="vector-wrapper" onclick="addToFavorites(this)">
+                <img class="vector-17" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector.svg" />
+              </div>
+              <div class="img-wrapper" onclick="addToCart(this)">
+                <img class="vector-18" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-51.svg" />
+              </div>
+              <div class="text-wrapper-41">ფუტკრის რძე 5გრ-ნი</div>
+              <div class="overlap-15">
+                <div class="overlap-12">
+                  <div class="text-wrapper-42">აპითერაპია</div>
+                  <img class="rectangle-4" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/rectangle-2583.png" />
+                </div>
+                <img class="polygon-2" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/polygon-6.svg" />
+                <div class="overlap-16">
+                  <div class="text-wrapper-37">5.0</div>
+                  <img class="vector-20" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-10.svg" />
+                </div>
+              </div>
+              <div class="text-wrapper-40">20.0 ლ</div>
+            </div>
+          </div>
+          <div class="product-card" data-category="honey">
+            <div class="overlap-17">
+              <div class="vector-wrapper" onclick="addToFavorites(this)">
+                <img class="vector-17" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector.svg" />
+              </div>
+              <div class="img-wrapper" onclick="addToCart(this)">
+                <img class="vector-18" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-32.svg" />
+              </div>
+              <div class="text-wrapper-43">ყვავილის მტვერი 150 გრ</div>
+              <div class="overlap-11">
+                <div class="overlap-12">
+                  <div class="text-wrapper-42">აპითერაპია</div>
+                  <img class="rectangle-4" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/rectangle-2587.png" />
+                </div>
+                <img class="polygon-3" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/polygon-6.svg" />
+                <div class="overlap-18">
+                  <div class="text-wrapper-37">5.0</div>
+                  <img class="vector-20" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-10.svg" />
+                </div>
+              </div>
+              <div class="text-wrapper-40">15.0 ლ</div>
+            </div>
+          </div>
+          <div class="product-card" data-category="honey">
+            <div class="overlap-19">
+              <div class="vector-wrapper" onclick="addToFavorites(this)">
+                <img class="vector-17" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector.svg" />
+              </div>
+              <div class="img-wrapper" onclick="addToCart(this)">
+                <img class="vector-18" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-18.svg" />
+              </div>
+              <div class="text-wrapper-38">ჭეო</div>
+              <div class="overlap-11">
+                <div class="overlap-12">
+                  <div class="text-wrapper-42">აპითერაპია</div>
+                  <img class="rectangle-4" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/rectangle-2587.png" />
+                </div>
+                <img class="polygon-2" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/polygon-6.svg" />
+                <div class="overlap-16">
+                  <div class="text-wrapper-37">5.0</div>
+                  <img class="vector-20" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-10.svg" />
+                </div>
+              </div>
+              <div class="text-wrapper-40">20.0 ლ</div>
+            </div>
+          </div>
+          <div class="product-card" data-category="honey">
+            <div class="overlap-20">
+              <div class="vector-wrapper" onclick="addToFavorites(this)">
+                <img class="vector-17" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector.svg" />
+              </div>
+              <div class="img-wrapper" onclick="addToCart(this)">
+                <img class="vector-18" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-40.svg" />
+              </div>
+              <div class="text-wrapper-41">დინდგელი</div>
+              <div class="overlap-15">
+                <div class="overlap-12">
+                  <div class="text-wrapper-42">აპითერაპია</div>
+                  <img class="rectangle-4" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/rectangle-2589.png" />
+                </div>
+                <img class="polygon-2" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/polygon-6.svg" />
+                <div class="overlap-13">
+                  <div class="text-wrapper-37">5.0</div>
+                  <img class="vector-20" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-10.svg" />
+                </div>
+              </div>
+              <div class="text-wrapper-40">10.0 ლ</div>
+            </div>
+          </div>
+          <div class="product-card" data-category="honey">
+            <div class="overlap-21">
+              <div class="vector-wrapper" onclick="addToFavorites(this)">
+                <img class="vector-17" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector.svg" />
+              </div>
+              <div class="img-wrapper" onclick="addToCart(this)">
+                <img class="vector-18" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-45.svg" />
+              </div>
+              <div class="text-wrapper-43">ცვილი</div>
+              <div class="overlap-11">
+                <div class="overlap-12">
+                  <div class="text-wrapper-42">აპითერაპია</div>
+                  <img class="rectangle-4" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/rectangle-2591.png" />
+                </div>
+                <img class="polygon-3" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/polygon-6.svg" />
+                <div class="overlap-22">
+                  <div class="text-wrapper-37">5.0</div>
+                  <img class="vector-20" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-10.svg" />
+                </div>
+              </div>
+              <div class="text-wrapper-40">25.0 ლ</div>
+            </div>
+          </div>
+          <div class="product-card" data-category="honey">
+            <div class="overlap-23">
+              <div class="vector-wrapper" onclick="addToFavorites(this)">
+                <img class="vector-17" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector.svg" />
+              </div>
+              <div class="img-wrapper" onclick="addToCart(this)">
+                <img class="vector-18" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-44.svg" />
+              </div>
+              <div class="text-wrapper-44">გამომშრალი ფუტკარი</div>
+              <div class="overlap-11">
+                <div class="overlap-12">
+                  <div class="text-wrapper-42">აპითერაპია</div>
+                  <img class="rectangle-4" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/rectangle-2593.png" />
+                </div>
+                <img class="polygon-2" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/polygon-6.svg" />
+                <div class="overlap-13">
+                  <div class="text-wrapper-37">5.0</div>
+                  <img class="vector-20" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-10.svg" />
+                </div>
+              </div>
+              <div class="text-wrapper-40">22.0 ლ</div>
+            </div>
+          </div>
+          <div class="product-card" data-category="honey">
+            <div class="view-2">
+              <div class="overlap-9">
+                <div class="vector-wrapper" onclick="addToFavorites(this)">
+                  <img class="vector-17" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector.svg" />
+                </div>
+                <div class="img-wrapper" onclick="addToCart(this)">
+                  <img class="vector-18" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-13.svg" />
+                </div>
+                <div class="text-wrapper-48">ცაცხვის თაფლი 1კგ</div>
+                <div class="text-wrapper-35">თაფლი</div>
+                <img class="rectangle-3" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/rectangle-2362-2.png" />
+                <div class="text-wrapper-36">22.0 ლ</div>
+                <img class="polygon-4" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/polygon-6.svg" />
+                <div class="overlap-24">
+                  <div class="text-wrapper-37">5.0</div>
+                  <img class="vector-19" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-10.svg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="group-4">
+          <div class="text-wrapper-45 page-number active" data-page="1">1</div>
+          <div class="text-wrapper-46 page-number" data-page="2">2</div>
+          <div class="text-wrapper-47 page-number" data-page="3">3</div>
+          <div class="icons-arrow-left-wrapper" onclick="previousPage()">
+            <div class="vector-wrapper-2">
+              <img class="vector-21" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-8.svg" />
+            </div>
+          </div>
+          <div class="icons-arrow-right-wrapper" onclick="nextPage()">
+            <div class="vector-wrapper-2">
+              <img class="vector-22" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-12.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="group-5">
+          <div class="overlap-25">
+            <div class="text-wrapper-49">დალაგება ფასის ზრდით</div>
+            <img class="line-6" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/line-9.svg" />
+            <img class="arrow" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/arrow-1.svg" onclick="toggleSort()" />
+          </div>
+        </div>
+        <div class="v">
+          <div class="overlap-26">
+            <div class="overlap-27">
+              <div class="rectangle-5"></div>
+              <div class="text-wrapper-50">VilleGo</div>
+              <div class="text-wrapper-51">ბლოგი</div>
+              <div class="text-wrapper-52">ფერმერები</div>
+              <div class="text-wrapper-53">ჩვენს შესახებ</div>
+              <div class="text-wrapper-54">კონტაქტი</div>
+              <div class="rectangle-6"></div>
+              <img class="vector-23" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-16.svg" />
+              <div class="text-wrapper-55">ძებნა</div>
+              <div class="text-wrapper-56">რუკა</div>
+              <img class="image" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/-------.png" />
+              <img class="vector-24" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-22.svg" />
+              <img class="vector-25" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-30.svg" />
+              <img class="vector-26" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-50.svg" />
+              <img class="plus-circle" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/plus-circle---1441-.svg" />
+              <img class="ellipse-3" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/ellipse-3981.png" />
+            </div>
+            <img class="group-6" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/group-1859.png" />
+          </div>
+        </div>
+        <div class="v-2">
+          <div class="overlap-28">
+            <div class="overlap-29">
+              <img class="line-7" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/line-7.svg" />
+              <div class="generic-phone-mock">
+                <div class="overlap-group-4">
+                  <img class="speaker-camera" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/speaker---camera.png" />
+                  <img class="frame" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/frame.png" />
+                  <img
+                    class="screen-mask-put"
+                    src="https://c.animaapp.com/mfia09i7TtmkvZ/img/screen-mask--put-design-here-.png"
+                  />
+                </div>
+              </div>
+              <div class="mobile-app-store">
+                <img class="microsoft" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/microsoft.svg" />
+                <img class="get-it-from" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/get-it-from.svg" />
+                <div class="microsoft-logo">
+                  <div class="rectangle-7"></div>
+                  <div class="rectangle-8"></div>
+                  <div class="rectangle-9"></div>
+                  <div class="rectangle-10"></div>
+                </div>
+              </div>
+              <div class="mobile-app-store-2">
+                <img class="app-store" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/app-store.svg" />
+                <img class="download-on-the" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/download-on-the.svg" />
+                <img class="apple-logo" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/apple-logo.svg" />
+              </div>
+              <div class="mobile-app-store-3">
+                <img class="google-play" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/google-play.svg" />
+                <img class="get-it-on" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/get-it-on.svg" />
+                <div class="google-play-logo"></div>
+              </div>
+              <img class="image-2" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/image-103.png" />
+              <div class="ville-go-wrapper">
+                <p class="ville-go">
+                  <span class="span">ჩამოტვირთე </span> <span class="text-wrapper-57">VilleGo</span>
+                </p>
+              </div>
+            </div>
+            <img class="profile" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/profile.png" />
+            <div class="text-wrapper-58">დახმარება</div>
+            <div class="text-wrapper-59">ხშირად დასმული კითხვები</div>
+            <div class="text-wrapper-60">ანონიმური უკუკავშირი</div>
+            <div class="text-wrapper-61">ინფორმაცია</div>
+            <div class="text-wrapper-62">გაყიდვის პირობები</div>
+            <div class="text-wrapper-63">წესები და პირობები</div>
+            <div class="text-wrapper-64">მომხმარებელი</div>
+            <div class="text-wrapper-65">რეგისტრაცია</div>
+            <div class="text-wrapper-66">მომხმარებლის გვერდი</div>
+            <p class="ville-go-2">
+              <span class="text-wrapper-57">VilleGo</span>
+              <span class="text-wrapper-67">&nbsp;</span>
+              <span class="text-wrapper-68">ფერმერიდან მომხმარებლამდე, შუამავალის გარეშე!</span>
+            </p>
+            <div class="group-7">
+              <img class="group-8" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/group-234-1.png" />
+              <div class="text-wrapper-69">555 88 88 88</div>
+            </div>
+            <div class="group-9">
+              <div class="text-wrapper-70">მიცკევიჩის N25;</div>
+              <img class="group-10" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/group-246-1.png" />
+            </div>
+            <div class="group-11">
+              <img class="subtract-2" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/subtract.svg" />
+              <div class="text-wrapper-71">VilleGoLLC@gmail.com</div>
+            </div>
+            <div class="text-wrapper-72">კონტაქტი:</div>
+          </div>
+          <img class="vector-27" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-20.svg" />
+          <div class="overlap-30">
+            <p class="element-villego-LLC">
+              <span class="text-wrapper-73">@ 2025 Villego.LLC</span>
+              <span class="text-wrapper-74">&nbsp;</span>
+              <span class="text-wrapper-75">ყველა უფლება დაცულია</span>
+            </p>
+            <div class="text-wrapper-76">საქართველო</div>
+          </div>
+          <div class="text-wrapper-77">დახმარების გვერდი</div>
+          <div class="text-wrapper-78">ჩვენს შესახებ</div>
+          <div class="text-wrapper-79">დაბრუნების პოლიტიკა</div>
+          <div class="text-wrapper-80">კონფიდენციალურობის პოლიტიკა</div>
+          <div class="text-wrapper-81">ფავორიტები</div>
+          <div class="text-wrapper-82">კალათა</div>
+          <img class="vector-28" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-34.svg" />
+          <img class="d" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/d.svg" />
+          <div class="group-12">
+            <img class="vector-29" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/vector-33.svg" />
+          </div>
+          <img class="image-3" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/------.png" />
+          <img class="image-4" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/----------------.png" />
+          <img class="image-5" src="https://c.animaapp.com/mfia09i7TtmkvZ/img/----------.png" />
+        </div>
+      </div>
+    </div>
+    <script src="../js/farmerexamplescript.js"></script>
+  </body>
+</html>

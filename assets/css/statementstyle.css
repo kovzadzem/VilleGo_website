@@ -1,0 +1,1638 @@
+:root {
+  --grayswhite: rgba(255, 255, 255, 1);
+}
+
+.screen {
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.screen .div {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 2150px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.screen .vector {
+  position: absolute;
+  width: 461px;
+  height: 1px;
+  top: 3200px;
+  left: 5500px;
+}
+
+.screen .overlap {
+  position: absolute;
+  width: 310px;
+  height: 52px;
+  top: 400px;
+  left: 805px;
+  background-color: #007f5f;
+  border-radius: 30px;
+  border: 1px solid;
+  border-color: #000000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.screen .overlap:hover {
+  background-color: #005a43;
+  transform: translateY(-2px);
+}
+
+.screen .overlap-group {
+  position: absolute;
+  width: 63px;
+  height: 38px;
+  top: 7px;
+  left: 6px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.screen .text-wrapper {
+  position: absolute;
+  height: 28px;
+  top: 4px;
+  left: 15px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: -0.85px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.screen .group {
+  position: absolute;
+  width: 14px;
+  height: 28px;
+  top: 5px;
+  left: 36px;
+}
+
+.screen .polygon {
+  position: absolute;
+  width: 12px;
+  height: 11px;
+  top: 0;
+  left: 1px;
+  cursor: pointer;
+}
+
+.screen .img {
+  position: absolute;
+  width: 12px;
+  height: 11px;
+  top: 18px;
+  left: 1px;
+  cursor: pointer;
+}
+
+.screen .vector-2 {
+  position: absolute;
+  width: 24px;
+  height: 28px;
+  top: 12px;
+  left: 268px;
+}
+
+.screen .text-wrapper-2 {
+  position: absolute;
+  height: 28px;
+  top: 11px;
+  left: 72px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: -0.85px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.screen .rectangle-wrapper {
+  position: absolute;
+  width: 423px;
+  height: 484px;
+  top: 272px;
+  left: 480px;
+  background-color: #e4e4e4;
+}
+
+.screen .rectangle {
+  position: absolute;
+  width: 367px;
+  height: 426px;
+  top: 32px;
+  left: 28px;
+  border-radius: 20px;
+  border: 3px solid;
+  border-color: #000000;
+  object-fit: cover;
+}
+
+.screen .vector-wrapper {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  top: 397px;
+  left: 1247px;
+  background-color: #ffffff;
+  border-radius: 28.5px;
+  border: 1px solid;
+  border-color: #000000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.screen .vector-wrapper:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.1);
+}
+
+.screen .vector-3 {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 15px;
+  left: 15px;
+}
+
+.screen .text-wrapper-3 {
+  position: absolute;
+  width: 82px;
+  height: 28px;
+  top: 354px;
+  left: 926px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: -0.85px;
+  line-height: 28px;
+}
+
+.screen .text-wrapper-4 {
+  position: absolute;
+  height: 28px;
+  top: 299px;
+  left: 1232px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: -0.85px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.screen .element {
+  position: absolute;
+  width: 236px;
+  height: 28px;
+  top: 299px;
+  left: 926px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 21px;
+  letter-spacing: -0.85px;
+  line-height: 28px;
+}
+
+.screen .text-wrapper-5 {
+  position: absolute;
+  height: 28px;
+  top: 774px;
+  left: 480px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 21px;
+  letter-spacing: -0.85px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-6 {
+  position: absolute;
+  width: 45px;
+  height: 28px;
+  top: 271px;
+  left: 943px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 100;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: -0.85px;
+  line-height: 28px;
+}
+
+.screen .polygon-2 {
+  position: absolute;
+  width: 11px;
+  height: 12px;
+  top: 279px;
+  left: 930px;
+}
+
+.screen .text-wrapper-7 {
+  position: absolute;
+  top: 188px;
+  left: 480px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 31px;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.screen .text-wrapper-7:hover {
+  color: #007f5f;
+}
+
+.screen .text-wrapper-8 {
+  position: absolute;
+  top: 188px;
+  left: 674px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 31px;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.screen .text-wrapper-8:hover {
+  color: #007f5f;
+}
+
+.screen .polygon-3 {
+  position: absolute;
+  width: 11px;
+  height: 12px;
+  top: 206px;
+  left: 643px;
+}
+
+.screen .p {
+  position: absolute;
+  width: 378px;
+  top: 476px;
+  left: 926px;
+  font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 37px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .span {
+  font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 37px;
+  letter-spacing: 0;
+}
+
+.screen .text-wrapper-9 {
+  font-size: 18px;
+}
+
+.screen .overlap-2 {
+  position: absolute;
+  width: 824px;
+  height: 146px;
+  top: 820px;
+  left: 480px;
+}
+
+.screen .text-wrapper-10 {
+  position: absolute;
+  top: 72px;
+  left: 17px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 49px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .rectangle-2 {
+  position: absolute;
+  width: 824px;
+  height: 73px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  border: 3px solid;
+  border-color: #000000;
+}
+
+.screen .overlap-3 {
+  position: absolute;
+  width: 346px;
+  height: 609px;
+  top: 147px;
+  left: 100px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  border: 3px solid;
+  border-color: #000000;
+}
+
+.screen .text-wrapper-11 {
+  position: absolute;
+  height: 175px;
+  top: 81px;
+  left: 46px;
+  font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 37px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .image {
+  position: absolute;
+  width: 190px;
+  height: 242px;
+  top: 310px;
+  left: 75px;
+  object-fit: cover;
+}
+
+.screen .vector-4 {
+  position: absolute;
+  width: 30px;
+  height: 28px;
+  top: 300px;
+  left: 1275px;
+}
+
+.screen .overlap-group-wrapper {
+  position: absolute;
+  width: 204px;
+  height: 332px;
+  top: 1005px;
+  left: 100px;
+}
+
+.screen .overlap-group-2 {
+  position: relative;
+  width: 198px;
+  height: 332px;
+  background-color: #e4e4e4;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.screen .overlap-group-2:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.screen .img-wrapper {
+  position: absolute;
+  width: 39px;
+  height: 38px;
+  top: 286px;
+  left: 108px;
+  background-color: #ffffff;
+  border-radius: 19.5px;
+  border: 1px solid;
+  border-color: #000000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.screen .img-wrapper:hover {
+  background-color: #007f5f;
+}
+
+.screen .vector-5 {
+  position: absolute;
+  width: 16px;
+  height: 19px;
+  top: 9px;
+  left: 10px;
+}
+
+.screen .overlap-group-3 {
+  position: absolute;
+  width: 39px;
+  height: 38px;
+  top: 286px;
+  left: 151px;
+  background-color: #ffffff;
+  border-radius: 19.5px;
+  border: 1px solid;
+  border-color: #000000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.screen .overlap-group-3:hover {
+  background-color: #007f5f;
+}
+
+.screen .vector-6 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 10px;
+  left: 10px;
+}
+
+.screen .vector-7 {
+  position: absolute;
+  width: 11px;
+  height: 5px;
+  top: 10px;
+  left: 14px;
+}
+
+.screen .element-2 {
+  position: absolute;
+  width: 161px;
+  height: 19px;
+  top: 244px;
+  left: 19px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: -0.85px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-12 {
+  position: absolute;
+  width: 85px;
+  height: 21px;
+  top: 9px;
+  left: 58px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: -0.85px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-13 {
+  position: absolute;
+  width: 31px;
+  height: 19px;
+  top: 226px;
+  left: 31px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 100;
+  color: #000000;
+  font-size: 8px;
+  letter-spacing: -0.85px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.screen .rectangle-3 {
+  position: absolute;
+  width: 161px;
+  height: 187px;
+  top: 38px;
+  left: 19px;
+  border-radius: 20px;
+  border: 3px solid;
+  border-color: #000000;
+  object-fit: cover;
+}
+
+.screen .text-wrapper-14 {
+  position: absolute;
+  width: 56px;
+  height: 19px;
+  top: 290px;
+  left: 19px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: -0.85px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.screen .polygon-4 {
+  position: absolute;
+  width: 7px;
+  height: 8px;
+  top: 231px;
+  left: 21px;
+}
+
+.screen .overlap-wrapper {
+  position: absolute;
+  width: 204px;
+  height: 332px;
+  top: 1005px;
+  left: 320px;
+}
+
+.screen .text-wrapper-15 {
+  position: absolute;
+  width: 55px;
+  height: 19px;
+  top: 12px;
+  left: 71px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: -0.85px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.screen .div-wrapper {
+  position: absolute;
+  width: 204px;
+  height: 332px;
+  top: 1005px;
+  left: 540px;
+}
+
+.screen .text-wrapper-16 {
+  position: absolute;
+  width: 92px;
+  height: 15px;
+  top: 13px;
+  left: 64px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: -0.85px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.screen .group-2 {
+  position: absolute;
+  width: 204px;
+  height: 332px;
+  top: 1005px;
+  left: 760px;
+}
+
+.screen .text-wrapper-17 {
+  position: absolute;
+  width: 71px;
+  height: 15px;
+  top: 15px;
+  left: 62px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: -0.85px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.screen .group-3 {
+  position: absolute;
+  width: 204px;
+  height: 332px;
+  top: 1005px;
+  left: 980px;
+}
+
+.screen .group-4 {
+  position: absolute;
+  width: 204px;
+  height: 332px;
+  top: 1005px;
+  left: 1200px;
+}
+
+.screen .v {
+  width: 1920px;
+  height: 115px;
+  top: 8px;
+  position: absolute;
+  left: 0;
+}
+
+.screen .overlap-4 {
+  position: relative;
+  width: 1920px;
+  height: 115px;
+}
+
+.screen .overlap-5 {
+  position: absolute;
+  width: 1920px;
+  height: 115px;
+  top: 0;
+  left: 0;
+}
+
+.screen .rectangle-4 {
+  position: absolute;
+  width: 1920px;
+  height: 62px;
+  top: 53px;
+  left: 0;
+  background-color: #007f5f;
+}
+
+.screen .text-wrapper-18 {
+  position: absolute;
+  top: 0;
+  left: 873px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 600;
+  color: #007f5f;
+  font-size: 54px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.screen .text-wrapper-18:hover {
+  color: #005a43;
+}
+
+.screen .text-wrapper-19 {
+  position: absolute;
+  top: 71px;
+  left: 190px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.screen .text-wrapper-19:hover {
+  color: #cccccc;
+}
+
+.screen .text-wrapper-20 {
+  position: absolute;
+  top: 71px;
+  left: 291px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.screen .text-wrapper-20:hover {
+  color: #cccccc;
+}
+
+.screen .text-wrapper-21 {
+  position: absolute;
+  top: 71px;
+  left: 512px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.screen .text-wrapper-21:hover {
+  color: #cccccc;
+}
+
+.screen .text-wrapper-22 {
+  position: absolute;
+  top: 71px;
+  left: 675px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.screen .text-wrapper-22:hover {
+  color: #cccccc;
+}
+
+.screen .rectangle-5 {
+  position: absolute;
+  width: 831px;
+  height: 35px;
+  top: 67px;
+  left: 791px;
+  background-color: #7fbf8e;
+  border-radius: 20px;
+}
+
+.screen .vector-8 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 75px;
+  left: 800px;
+}
+
+.screen .text-wrapper-23 {
+  position: absolute;
+  top: 73px;
+  left: 823px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-24 {
+  position: absolute;
+  top: 71px;
+  left: 431px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.screen .text-wrapper-24:hover {
+  color: #cccccc;
+}
+
+.screen .image-2 {
+  position: absolute;
+  width: 49px;
+  height: 58px;
+  top: 55px;
+  left: 65px;
+}
+
+.screen .vector-9 {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 73px;
+  left: 1789px;
+  cursor: pointer;
+}
+
+.screen .vector-10 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 72px;
+  left: 1743px;
+  cursor: pointer;
+}
+
+.screen .vector-11 {
+  position: absolute;
+  width: 30px;
+  height: 24px;
+  top: 72px;
+  left: 1692px;
+  cursor: pointer;
+}
+
+.screen .plus-circle {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 74px;
+  left: 1649px;
+  cursor: pointer;
+}
+
+.screen .ellipse {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 73px;
+  left: 1833px;
+  border: 1px solid;
+  border-color: #000000;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.screen .group-5 {
+  position: absolute;
+  width: 45px;
+  height: 22px;
+  top: 9px;
+  left: 1811px;
+}
+
+.screen .v-2 {
+  width: 1920px;
+  height: 709px;
+  top: 1403px;
+  position: absolute;
+  left: 0;
+}
+
+.screen .overlap-6 {
+  position: absolute;
+  width: 1920px;
+  height: 638px;
+  top: 33px;
+  left: 0;
+}
+
+.screen .overlap-7 {
+  position: absolute;
+  width: 1920px;
+  height: 631px;
+  top: 0;
+  left: 0;
+}
+
+.screen .line {
+  position: absolute;
+  width: 1920px;
+  height: 1px;
+  top: 568px;
+  left: 0;
+}
+
+.screen .generic-phone-mock {
+  position: absolute;
+  width: 317px;
+  height: 631px;
+  top: 0;
+  left: 1302px;
+  box-shadow: 8px 2px 11px #00000017;
+  background-image: url(https://c.animaapp.com/mfiax30qA3xL04/img/phone-body.png);
+  background-size: 100% 100%;
+}
+
+.screen .overlap-group-4 {
+  position: relative;
+  width: 277px;
+  height: 601px;
+  top: 15px;
+  left: 18px;
+}
+
+.screen .speaker-camera {
+  position: absolute;
+  width: 124px;
+  height: 11px;
+  top: 0;
+  left: 76px;
+}
+
+.screen .frame {
+  position: absolute;
+  width: 277px;
+  height: 594px;
+  top: 6px;
+  left: 0;
+}
+
+.screen .screen-mask-put {
+  position: absolute;
+  width: 275px;
+  height: 591px;
+  top: 8px;
+  left: 1px;
+}
+
+.screen .mobile-app-store {
+  position: absolute;
+  width: 207px;
+  height: 62px;
+  top: 532px;
+  left: 1354px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.screen .mobile-app-store:hover {
+  transform: scale(1.05);
+}
+
+.screen .microsoft {
+  position: absolute;
+  width: 122px;
+  height: 19px;
+  top: 29px;
+  left: 71px;
+}
+
+.screen .get-it-from {
+  position: absolute;
+  width: 88px;
+  height: 12px;
+  top: 12px;
+  left: 71px;
+}
+
+.screen .microsoft-logo {
+  position: absolute;
+  width: 43px;
+  height: 36px;
+  top: 12px;
+  left: 15px;
+}
+
+.screen .rectangle-6 {
+  position: absolute;
+  width: 21px;
+  height: 17px;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+}
+
+.screen .rectangle-7 {
+  position: absolute;
+  width: 21px;
+  height: 17px;
+  top: 18px;
+  left: 0;
+  background-color: #000000;
+}
+
+.screen .rectangle-8 {
+  position: absolute;
+  width: 21px;
+  height: 17px;
+  top: 0;
+  left: 22px;
+  background-color: #000000;
+}
+
+.screen .rectangle-9 {
+  position: absolute;
+  width: 21px;
+  height: 17px;
+  top: 18px;
+  left: 22px;
+  background-color: #000000;
+}
+
+.screen .mobile-app-store-2 {
+  top: 369px;
+  border-radius: 5px;
+  position: absolute;
+  width: 207px;
+  height: 62px;
+  left: 1354px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.screen .mobile-app-store-2:hover {
+  transform: scale(1.05);
+}
+
+.screen .app-store {
+  position: absolute;
+  width: 130px;
+  height: 25px;
+  top: 28px;
+  left: 60px;
+}
+
+.screen .download-on-the {
+  position: absolute;
+  width: 120px;
+  height: 10px;
+  top: 13px;
+  left: 61px;
+}
+
+.screen .apple-logo {
+  position: absolute;
+  width: 31px;
+  height: 34px;
+  top: 14px;
+  left: 17px;
+}
+
+.screen .mobile-app-store-3 {
+  top: 450px;
+  border-radius: 4px;
+  overflow: hidden;
+  position: absolute;
+  width: 207px;
+  height: 62px;
+  left: 1354px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.screen .mobile-app-store-3:hover {
+  transform: scale(1.05);
+}
+
+.screen .google-play {
+  position: absolute;
+  width: 131px;
+  height: 27px;
+  top: 27px;
+  left: 63px;
+}
+
+.screen .get-it-on {
+  position: absolute;
+  width: 60px;
+  height: 10px;
+  top: 11px;
+  left: 64px;
+}
+
+.screen .google-play-logo {
+  position: absolute;
+  width: 35px;
+  height: 40px;
+  top: 11px;
+  left: 15px;
+  background-image: url(https://c.animaapp.com/mfiax30qA3xL04/img/subtract-1.svg);
+  background-size: 100% 100%;
+}
+
+.screen .image-3 {
+  position: absolute;
+  width: 139px;
+  height: 151px;
+  top: 180px;
+  left: 1390px;
+  object-fit: cover;
+}
+
+.screen .ville-go-wrapper {
+  display: inline-flex;
+  height: 121px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px;
+  position: absolute;
+  top: 58px;
+  left: 1326px;
+}
+
+.screen .ville-go {
+  position: relative;
+  width: 253px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-25 {
+  font-weight: 500;
+  color: #000000;
+}
+
+.screen .text-wrapper-26 {
+  font-weight: 700;
+  color: #126a3a;
+}
+
+.screen .profile {
+  position: absolute;
+  width: 990px;
+  height: 499px;
+  top: 45px;
+  left: 261px;
+  border-radius: 30px;
+  border: 3px solid;
+  border-color: #000000;
+  object-fit: cover;
+}
+
+.screen .text-wrapper-27 {
+  position: absolute;
+  top: 580px;
+  left: 642px;
+  font-family: "ABeeZee", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-28 {
+  position: absolute;
+  top: 609px;
+  left: 642px;
+  font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #707072;
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-29 {
+  position: absolute;
+  top: 628px;
+  left: 642px;
+  font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #707072;
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-30 {
+  position: absolute;
+  top: 580px;
+  left: 854px;
+  font-family: "ABeeZee", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-31 {
+  position: absolute;
+  top: 609px;
+  left: 854px;
+  font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #707072;
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-32 {
+  position: absolute;
+  top: 628px;
+  left: 854px;
+  font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #707072;
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-33 {
+  position: absolute;
+  top: 580px;
+  left: 1103px;
+  font-family: "ABeeZee", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-34 {
+  position: absolute;
+  top: 609px;
+  left: 1103px;
+  font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #707072;
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-35 {
+  position: absolute;
+  top: 628px;
+  left: 1103px;
+  font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #707072;
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .ville-go-2 {
+  position: absolute;
+  top: 0;
+  left: 261px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-36 {
+  font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+  color: #000000;
+}
+
+.screen .text-wrapper-37 {
+  font-family: "Poppins", Helvetica;
+  color: #000000;
+}
+
+.screen .group-6 {
+  position: absolute;
+  width: 82px;
+  height: 17px;
+  top: 606px;
+  left: 379px;
+}
+
+.screen .group-7 {
+  position: absolute;
+  width: 8px;
+  height: 17px;
+  top: 0;
+  left: 0;
+}
+
+.screen .text-wrapper-38 {
+  position: absolute;
+  top: 0;
+  left: 12px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .group-8 {
+  position: absolute;
+  width: 107px;
+  height: 16px;
+  top: 606px;
+  left: 261px;
+}
+
+.screen .text-wrapper-39 {
+  position: absolute;
+  top: 0;
+  left: 17px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .group-9 {
+  position: absolute;
+  width: 13px;
+  height: 16px;
+  top: 0;
+  left: 0;
+}
+
+.screen .group-10 {
+  position: absolute;
+  width: 140px;
+  height: 16px;
+  top: 606px;
+  left: 471px;
+}
+
+.screen .subtract {
+  position: absolute;
+  width: 13px;
+  height: 10px;
+  top: 3px;
+  left: 0;
+}
+
+.screen .text-wrapper-40 {
+  position: absolute;
+  top: 0;
+  left: 17px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-41 {
+  position: absolute;
+  top: 579px;
+  left: 261px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .vector-12 {
+  position: absolute;
+  width: 1920px;
+  height: 2px;
+  top: -1px;
+  left: 0;
+}
+
+.screen .overlap-8 {
+  position: absolute;
+  width: 279px;
+  height: 32px;
+  top: 677px;
+  left: 1619px;
+}
+
+.screen .element-villego-LLC {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #707072;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-42 {
+  font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #707072;
+  font-size: 15px;
+  letter-spacing: 0;
+}
+
+.screen .text-wrapper-43 {
+  font-family: "ABeeZee", Helvetica;
+}
+
+.screen .text-wrapper-44 {
+  font-family: "ABeeZee", Helvetica;
+  font-size: 12px;
+}
+
+.screen .text-wrapper-45 {
+  position: absolute;
+  width: 71px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 900;
+  color: #707072;
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-46 {
+  position: absolute;
+  top: 679px;
+  left: 642px;
+  font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #707072;
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-47 {
+  position: absolute;
+  top: 698px;
+  left: 642px;
+  font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #707072;
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-48 {
+  position: absolute;
+  top: 679px;
+  left: 854px;
+  font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #707072;
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-49 {
+  position: absolute;
+  top: 698px;
+  left: 854px;
+  font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #707072;
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-50 {
+  position: absolute;
+  top: 679px;
+  left: 1103px;
+  font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #707072;
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-51 {
+  position: absolute;
+  top: 698px;
+  left: 1103px;
+  font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #707072;
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .vector-13 {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  top: 680px;
+  left: 261px;
+}
+
+.screen .d {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 679px;
+  left: 343px;
+}
+
+.screen .group-11 {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  top: 680px;
+  left: 399px;
+}
+
+.screen .vector-14 {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  top: 0;
+  left: 0;
+}
+
+.screen .image-4 {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  top: 680px;
+  left: 372px;
+}
+
+.screen .image-5 {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  top: 680px;
+  left: 289px;
+}
+
+.screen .image-6 {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  top: 680px;
+  left: 316px;
+}
+
+/* Notification styles */
+.notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #007f5f;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  z-index: 1000;
+  opacity: 0;
+  transform: translateX(100%);
+  transition: all 0.3s ease;
+}
+
+.notification.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Search input styles */
+.search-input {
+  position: absolute;
+  top: 73px;
+  left: 823px;
+  width: 200px;
+  height: 18px;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-family: "Roboto", Helvetica;
+  font-size: 18px;
+  outline: none;
+}
+
+.search-input::placeholder {
+  color: #cccccc;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1920px) {
+  .screen .div {
+    transform-origin: top left;
+    transform: scale(calc(100vw / 1920));
+  }
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/helpglobals.css" />
+    <link rel="stylesheet" href="../css/helpstyle.css" />
+  </head>
+  <body>
+    <div class="screen">
+      <div class="div">
+        <div class="frame" onclick="handleSupportClick()">
+          <div class="frame-2">
+            <div class="frame-wrapper">
+              <div class="frame-3">
+                <div class="interface-help">
+                  <div class="container">
+                    <div class="state-layer">
+                      <div class="icon">
+                        <div class="overlap-group">
+                          <img class="bounds" src="https://c.animaapp.com/mfi57usgRpJnbG/img/bounds.svg" />
+                          <img class="mail" src="https://c.animaapp.com/mfi57usgRpJnbG/img/mail.png" />
+                        </div>
+                  </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-wrapper">დაეკონტაქტე<br />სუპორტს</div>
+              </div>
+            </div>
+            <div class="div-wrapper"><div class="text-wrapper-2">დაგვეკონტაქტე</div></div>
+          </div>
+        </div>
+        <div class="faq-group">
+          <div class="overlap">
+            <div class="text-wrapper-3">View FAQ</div>
+            <div class="frame-4" onclick="handleFAQClick()">
+              <div class="frame-5">
+                <img
+                  class="img"
+                  src="https://c.animaapp.com/mfi57usgRpJnbG/img/interface-help-question-circle--circle-faq-frame-help-info-mark-.svg"
+                />
+                <div class="text-wrapper-4">FAQ</div>
+              </div>
+              <div class="frame-6"><div class="text-wrapper-5">ნახე FAQ</div></div>
+            </div>
+          </div>
+        </div>
+        <div class="user-guide-group">
+          <div class="frame-7" onclick="handleUserGuideClick()">
+            <div class="frame-8">
+              <div class="frame-9">
+                <img class="vector" src="https://c.animaapp.com/mfi57usgRpJnbG/img/vector-2.svg" />
+                <div class="text-wrapper-6">მომხმარებლის<br />სახელმძღვანელო</div>
+              </div>
+            </div>
+            <div class="frame-6"><div class="text-wrapper-7">ნახე სახელმძღვანელო</div></div>
+          </div>
+        </div>
+        <div class="feedback-group">
+          <div class="overlap-2">
+            <div class="frame-4" onclick="handleFeedbackClick()">
+              <div class="frame-10">
+                <img class="image" src="https://c.animaapp.com/mfi57usgRpJnbG/img/image-2.png" />
+                <div class="text-wrapper-8">გამოხმაურება</div>
+              </div>
+              <div class="frame-11">
+                <div class="feedback-form" id="feedbackForm">
+                  <textarea placeholder="თქვენი აზრი..." id="feedbackText"></textarea>
+                  <button onclick="submitFeedback()">შენახვა</button>
+                </div>
+              </div>
+              <div class="frame-12"><div class="text-wrapper-5">Save</div></div>
+            </div>
+            <div class="frame-13" onclick="toggleFeedbackForm()"><div class="text-wrapper-9">თქვენი აზრი</div></div>
+            <div class="frame-14" onclick="submitFeedback()"><div class="text-wrapper-10">შენახვა</div></div>
+          </div>
+        </div>
+        <div class="overlap-3" onclick="focusSearch()">
+          <div class="mic"><img class="group" src="https://c.animaapp.com/mfi57usgRpJnbG/img/group.png" /></div>
+          <img class="vector-2" src="https://c.animaapp.com/mfi57usgRpJnbG/img/vector-5.svg" />
+          <div class="text-wrapper-11">ძიება</div>
+          <input type="text" class="search-input" placeholder="რით შემიძლია დაგეხმაროთ?" id="searchInput" oninput="handleSearch()" onfocus="showSearchSuggestions()" onblur="hideSearchSuggestions()">
+          <div class="search-suggestions" id="searchSuggestions">
+            <div class="search-suggestion" onclick="selectSuggestion('FAQ')">FAQ - ხშირად დასმული კითხვები</div>
+            <div class="search-suggestion" onclick="selectSuggestion('Support')">სუპორტი - დახმარება</div>
+            <div class="search-suggestion" onclick="selectSuggestion('Guide')">სახელმძღვანელო</div>
+            <div class="search-suggestion" onclick="selectSuggestion('Contact')">კონტაქტი</div>
+            <div class="search-suggestion" onclick="selectSuggestion('Feedback')">გამოხმაურება</div>
+          </div>
+        </div>
+        <div class="overlap-4">
+          <div class="text-wrapper-12">რით შემიძლია დაგეხმაროთ?</div>
+          <div class="text-wrapper-13">რით შემიძლია დაგეხმაროთ?</div>
+        </div>
+        <img class="chat-dot" src="https://c.animaapp.com/mfi57usgRpJnbG/img/chat-dot-2-1.svg" />
+        <img class="app-chat" src="https://c.animaapp.com/mfi57usgRpJnbG/img/app-chat-communication-1.svg" />
+        <div class="v">
+          <div class="overlap-5">
+            <div class="overlap-6">
+              <div class="rectangle"></div>
+              <div class="text-wrapper-14">VilleGo</div>
+              <div class="text-wrapper-15 nav-link" onclick="handleNavClick('blog')">ბლოგი</div>
+              <div class="text-wrapper-16 nav-link" onclick="handleNavClick('farmers')">ფერმერები</div>
+              <div class="text-wrapper-17 nav-link" onclick="handleNavClick('about')">ჩვენს შესახებ</div>
+              <div class="text-wrapper-18 nav-link" onclick="handleNavClick('contact')">კონტაქტი</div>
+              <div class="rectangle-2"></div>
+              <img class="vector-3" src="https://c.animaapp.com/mfi57usgRpJnbG/img/vector-5.svg" />
+              <div class="text-wrapper-19">ძებნა</div>
+              <div class="text-wrapper-20 nav-link" onclick="handleNavClick('map')">რუკა</div>
+              <img class="image-2" src="https://c.animaapp.com/mfi57usgRpJnbG/img/-------.png" />
+              <img class="vector-4" src="https://c.animaapp.com/mfi57usgRpJnbG/img/vector-6.svg" />
+              <img class="vector-5" src="https://c.animaapp.com/mfi57usgRpJnbG/img/vector-3.svg" />
+              <img class="vector-6" src="https://c.animaapp.com/mfi57usgRpJnbG/img/vector-8.svg" />
+              <img class="plus-circle" src="https://c.animaapp.com/mfi57usgRpJnbG/img/plus-circle---1441-.svg" />
+              <img class="ellipse" src="https://c.animaapp.com/mfi57usgRpJnbG/img/ellipse-3981.png" />
+            </div>
+            <img class="group-2" src="https://c.animaapp.com/mfi57usgRpJnbG/img/group-1859.png" />
+          </div>
+        </div>
+        <div class="v-2">
+          <div class="overlap-7">
+            <div class="overlap-8">
+              <img class="line" src="https://c.animaapp.com/mfi57usgRpJnbG/img/line-7.svg" />
+              <div class="generic-phone-mock">
+                <div class="overlap-group-2">
+                  <img class="speaker-camera" src="https://c.animaapp.com/mfi57usgRpJnbG/img/speaker---camera.png" />
+                  <img class="frame-15" src="https://c.animaapp.com/mfi57usgRpJnbG/img/frame.png" />
+                  <img
+                    class="screen-mask-put"
+                    src="https://c.animaapp.com/mfi57usgRpJnbG/img/screen-mask--put-design-here-.png"
+                  />
+                </div>
+              </div>
+              <div class="mobile-app-store" onclick="handleAppStoreClick('microsoft')">
+                <img class="microsoft" src="https://c.animaapp.com/mfi57usgRpJnbG/img/microsoft.svg" />
+                <img class="get-it-from" src="https://c.animaapp.com/mfi57usgRpJnbG/img/get-it-from.svg" />
+                <div class="microsoft-logo">
+                  <div class="rectangle-3"></div>
+                  <div class="rectangle-4"></div>
+                  <div class="rectangle-5"></div>
+                  <div class="rectangle-6"></div>
+                </div>
+              </div>
+              <div class="mobile-app-store-2" onclick="handleAppStoreClick('apple')">
+                <img class="app-store" src="https://c.animaapp.com/mfi57usgRpJnbG/img/app-store.svg" />
+                <img class="download-on-the" src="https://c.animaapp.com/mfi57usgRpJnbG/img/download-on-the.svg" />
+                <img class="apple-logo" src="https://c.animaapp.com/mfi57usgRpJnbG/img/apple-logo.svg" />
+              </div>
+              <div class="mobile-app-store-3" onclick="handleAppStoreClick('google')">
+                <img class="google-play" src="https://c.animaapp.com/mfi57usgRpJnbG/img/google-play.svg" />
+                <img class="get-it-on" src="https://c.animaapp.com/mfi57usgRpJnbG/img/get-it-on.svg" />
+                <div class="google-play-logo"></div>
+              </div>
+              <img class="image-3" src="https://c.animaapp.com/mfi57usgRpJnbG/img/image-103.png" />
+              <div class="ville-go-wrapper">
+                <p class="ville-go">
+                  <span class="span">ჩამოტვირთე </span> <span class="text-wrapper-21">VilleGo</span>
+                </p>
+              </div>
+            </div>
+            <img class="profile" src="https://c.animaapp.com/mfi57usgRpJnbG/img/profile.png" />
+            <div class="text-wrapper-22">დახმარება</div>
+            <div class="text-wrapper-23">ხშირად დასმული კითხვები</div>
+            <div class="text-wrapper-24">ანონიმური უკუკავშირი</div>
+            <div class="text-wrapper-25">ინფორმაცია</div>
+            <div class="text-wrapper-26">გაყიდვის პირობები</div>
+            <div class="text-wrapper-27">წესები და პირობები</div>
+            <div class="text-wrapper-28">მომხმარებელი</div>
+            <div class="text-wrapper-29">რეგისტრაცია</div>
+            <div class="text-wrapper-30">მომხმარებლის გვერდი</div>
+            <p class="p">
+              <span class="text-wrapper-21">VilleGo</span>
+              <span class="text-wrapper-31">&nbsp;</span>
+              <span class="text-wrapper-32">ფერმერიდან მომხმარებლამდე, შუამავალის გარეშე!</span>
+            </p>
+            <div class="group-3">
+              <img class="group-4" src="https://c.animaapp.com/mfi57usgRpJnbG/img/group-234.png" />
+              <div class="text-wrapper-33">555 88 88 88</div>
+            </div>
+            <div class="group-5">
+              <div class="text-wrapper-34">მიცკევიჩის N25;</div>
+              <img class="group-6" src="https://c.animaapp.com/mfi57usgRpJnbG/img/group-246.png" />
+            </div>
+            <div class="group-7">
+              <img class="subtract" src="https://c.animaapp.com/mfi57usgRpJnbG/img/subtract-1.svg" />
+              <div class="text-wrapper-35">VilleGoLLC@gmail.com</div>
+            </div>
+            <div class="text-wrapper-36">კონტაქტი:</div>
+          </div>
+          <img class="vector-7" src="https://c.animaapp.com/mfi57usgRpJnbG/img/vector-4.svg" />
+          <div class="overlap-9">
+            <p class="element-villego-LLC">
+              <span class="text-wrapper-37">@ 2025 Villego.LLC</span>
+              <span class="text-wrapper-38">&nbsp;</span>
+              <span class="text-wrapper-39">ყველა უფლება დაცულია</span>
+            </p>
+            <div class="text-wrapper-40">საქართველო</div>
+          </div>
+          <div class="text-wrapper-41">დახმარების გვერდი</div>
+          <div class="text-wrapper-42">ჩვენს შესახებ</div>
+          <div class="text-wrapper-43">დაბრუნების პოლიტიკა</div>
+          <div class="text-wrapper-44">კონფიდენციალურობის პოლიტიკა</div>
+          <div class="text-wrapper-45">ფავორიტები</div>
+          <div class="text-wrapper-46">კალათა</div>
+          <img class="vector-8" src="https://c.animaapp.com/mfi57usgRpJnbG/img/vector.svg" />
+          <img class="d" src="https://c.animaapp.com/mfi57usgRpJnbG/img/d.svg" />
+          <div class="vector-wrapper">
+            <img class="vector-9" src="https://c.animaapp.com/mfi57usgRpJnbG/img/vector-1.svg" />
+          </div>
+          <img class="image-4" src="https://c.animaapp.com/mfi57usgRpJnbG/img/------.png" />
+          <img class="image-5" src="https://c.animaapp.com/mfi57usgRpJnbG/img/----------------.png" />
+          <img class="image-6" src="https://c.animaapp.com/mfi57usgRpJnbG/img/----------.png" />
+        </div>
+      </div>
+    </div>
+    <script src="../js/helpscript.js"></script>
+  </body>
+</html>

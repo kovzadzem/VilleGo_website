@@ -1,0 +1,553 @@
+:root {
+  --grayswhite: rgba(255, 255, 255, 1);
+}
+
+.screen {
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.screen .overlap-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  min-width: 1920px;
+}
+
+.screen .overlap {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  min-width: 1920px;
+  top: 0;
+}
+
+.screen .image {
+  position: absolute;
+  width: 100vw;
+  height: calc(100vh - 116px);
+  top: 116px;
+  left: 0;
+  min-width: 1920px;
+}
+
+.screen .gradienti {
+  position: absolute;
+  width: 100vw;
+  height: calc(100vh - 116px);
+  top: 116px;
+  left: 0;
+  min-width: 1920px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.screen .view {
+  position: absolute;
+  width: 361px;
+  height: 62px;
+  top: 133px;
+  left: 217px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.screen .view:hover {
+  transform: scale(1.05);
+}
+
+.screen .overlap-group {
+  position: relative;
+  width: 359px;
+  height: 62px;
+  background-color: #007f5f;
+  border-radius: 39px;
+  transition: background-color 0.3s ease;
+}
+
+.screen .view:hover .overlap-group {
+  background-color: #005a43;
+}
+
+.screen .text-wrapper {
+  height: 37px;
+  top: 12px;
+  left: 46px;
+  font-family: "Inria Sans", Helvetica;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .overlap-group-wrapper {
+  position: absolute;
+  width: 361px;
+  height: 62px;
+  top: 133px;
+  left: 778px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.screen .overlap-group-wrapper:hover {
+  transform: scale(1.05);
+}
+
+.screen .overlap-group-wrapper:hover .overlap-group {
+  background-color: #005a43;
+}
+
+.screen .div {
+  width: 112px;
+  height: 41px;
+  top: 11px;
+  left: 123px;
+  font-family: "Inria Sans", Helvetica;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .group {
+  position: absolute;
+  width: 256px;
+  height: 231px;
+  top: 224px;
+  left: 516px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.screen .group:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.screen .div-wrapper {
+  position: relative;
+  width: 254px;
+  height: 231px;
+  border-radius: 20px;
+  border: 4px solid;
+  border-color: #007f5f;
+  background-image: url(https://c.animaapp.com/mfiam9rwqDhf7C/img/rectangle-2605.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: border-color 0.3s ease;
+}
+
+.screen .group:hover .div-wrapper {
+  border-color: #00a876;
+}
+
+.screen .text-wrapper-2 {
+  width: 185px;
+  height: 36px;
+  top: 92px;
+  left: 30px;
+  text-shadow: 0px 2px 4px #000000;
+  font-family: "Inria Sans", Helvetica;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .group-2 {
+  position: absolute;
+  width: 256px;
+  height: 231px;
+  top: 475px;
+  left: 832px;
+}
+
+.screen .overlap-2 {
+  position: relative;
+  width: 254px;
+  height: 231px;
+  border-radius: 20px;
+  border: 4px solid;
+  border-color: #007f5f;
+  background-image: url(https://c.animaapp.com/mfiam9rwqDhf7C/img/rectangle-2606.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.screen .text-wrapper-3 {
+  height: 37px;
+  top: 92px;
+  left: 64px;
+  text-shadow: 0px 2px 4px #000000;
+  font-family: "Inria Sans", Helvetica;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .group-3 {
+  position: absolute;
+  width: 256px;
+  height: 231px;
+  top: 475px;
+  left: 516px;
+}
+
+.screen .overlap-3 {
+  position: relative;
+  width: 254px;
+  height: 231px;
+  border-radius: 20px;
+  border: 4px solid;
+  border-color: #007f5f;
+  background-image: url(https://c.animaapp.com/mfiam9rwqDhf7C/img/rectangle-2608.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.screen .text-wrapper-4 {
+  height: 37px;
+  top: 92px;
+  left: 18px;
+  text-shadow: 0px 2px 4px #000000;
+  font-family: "Inria Sans", Helvetica;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .group-4 {
+  position: absolute;
+  width: 256px;
+  height: 231px;
+  top: 224px;
+  left: 832px;
+}
+
+.screen .overlap-4 {
+  position: relative;
+  width: 254px;
+  height: 231px;
+  border-radius: 20px;
+  border: 4px solid;
+  border-color: #007f5f;
+  background-image: url(https://c.animaapp.com/mfiam9rwqDhf7C/img/rectangle-2607.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.screen .text-wrapper-5 {
+  height: 37px;
+  top: 92px;
+  left: 30px;
+  text-shadow: 0px 2px 4px #000000;
+  font-family: "Inria Sans", Helvetica;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .group-5 {
+  position: absolute;
+  width: 256px;
+  height: 231px;
+  top: 475px;
+  left: 1148px;
+}
+
+.screen .overlap-5 {
+  position: relative;
+  width: 254px;
+  height: 231px;
+  border-radius: 20px;
+  border: 4px solid;
+  border-color: #007f5f;
+  background-image: url(https://c.animaapp.com/mfiam9rwqDhf7C/img/rectangle-2610.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.screen .text-wrapper-6 {
+  height: 37px;
+  top: 92px;
+  left: 39px;
+  text-shadow: 0px 2px 4px #000000;
+  font-family: "Inria Sans", Helvetica;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .group-6 {
+  position: absolute;
+  width: 256px;
+  height: 231px;
+  top: 224px;
+  left: 1148px;
+}
+
+.screen .overlap-6 {
+  position: relative;
+  width: 254px;
+  height: 231px;
+  border-radius: 20px;
+  border: 4px solid;
+  border-color: #007f5f;
+  background-image: url(https://c.animaapp.com/mfiam9rwqDhf7C/img/rectangle-2609.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.screen .text-wrapper-7 {
+  height: 37px;
+  top: 92px;
+  left: 20px;
+  text-shadow: 0px 2px 4px #000000;
+  font-family: "Inria Sans", Helvetica;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .v {
+  position: absolute;
+  width: 100vw;
+  height: 116px;
+  top: 0;
+  left: 0;
+  min-width: 1920px;
+}
+
+.screen .overlap-7 {
+  position: relative;
+  width: 100vw;
+  height: 116px;
+  min-width: 1920px;
+}
+
+.screen .overlap-8 {
+  position: absolute;
+  width: 100vw;
+  height: 116px;
+  top: 0;
+  left: 0;
+  min-width: 1920px;
+}
+
+.screen .rectangle {
+  position: absolute;
+  width: 100vw;
+  height: 62px;
+  top: 53px;
+  left: 0;
+  min-width: 1920px;
+  background-color: #007f5f;
+}
+
+.screen .text-wrapper-8 {
+  position: absolute;
+  top: 0;
+  left: 873px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 600;
+  color: #007f5f;
+  font-size: 53px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-9 {
+  top: 71px;
+  left: 190px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  font-size: 16px;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-10 {
+  top: 71px;
+  left: 291px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  font-size: 16px;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-11 {
+  top: 71px;
+  left: 512px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  font-size: 16px;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-12 {
+  top: 71px;
+  left: 676px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  font-size: 16px;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .rectangle-2 {
+  position: absolute;
+  width: 830px;
+  height: 34px;
+  top: 68px;
+  right: 299px;
+  background-color: #7fbf8e;
+  border-radius: 16px;
+}
+
+.screen .vector {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 75px;
+  right: 1111px;
+}
+
+.screen .text-wrapper-13 {
+  top: 73px;
+  right: 1088px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  font-size: 18px;
+  white-space: nowrap;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-14 {
+  top: 71px;
+  left: 430px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  font-size: 16px;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .img {
+  position: absolute;
+  width: 50px;
+  height: 57px;
+  top: 55px;
+  left: 66px;
+}
+
+.screen .vector-2 {
+  width: 21px;
+  height: 21px;
+  top: 73px;
+  right: 131px;
+  position: absolute;
+}
+
+.screen .vector-3 {
+  width: 23px;
+  height: 23px;
+  top: 71px;
+  right: 177px;
+  position: absolute;
+}
+
+.screen .vector-4 {
+  width: 30px;
+  height: 23px;
+  top: 71px;
+  right: 228px;
+  position: absolute;
+}
+
+.screen .plus-circle {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 73px;
+  right: 272px;
+}
+
+.screen .ellipse {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 73px;
+  right: 87px;
+  border: 2px solid;
+  border-color: #000000;
+  object-fit: cover;
+}
+
+.screen .group-7 {
+  position: absolute;
+  width: 44px;
+  height: 23px;
+  top: 9px;
+  right: 110px;
+}

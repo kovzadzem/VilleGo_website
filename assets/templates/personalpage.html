@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/personalpageglobals.css" />
+    <link rel="stylesheet" href="../css/personalpagestyle.css" />
+   <script src="../js/personalpagescript.js"></script>
+    <title>VilleGo - ფერმერიდან მომხმარებლამდე</title>
+  </head>
+  <body>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="mobile-menu-header">
+        <span class="mobile-menu-title">VilleGo</span>
+        <button class="close-menu" id="closeMenu">&times;</button>
+      </div>
+      <a href="#" class="mobile-menu-item" data-action="blog">  ბლოგი</a>
+      <a href="#" class="mobile-menu-item" data-action="farmers">ფერმერები</a>
+      <a href="#" class="mobile-menu-item" data-action="about">ჩვენს შესახებ</a>
+      <a href="#" class="mobile-menu-item" data-action="contact">კონტაქტი</a>
+      <a href="#" class="mobile-menu-item" data-action="map">რუკა</a>
+      <a href="#" class="mobile-menu-item" data-action="search">ძებნა</a>
+    </div>
+    
+    <!-- Menu Overlay -->
+    <div class="menu-overlay" id="menuOverlay"></div>
+    
+    <!-- Hamburger Menu Button -->
+    <button class="hamburger-menu" id="hamburgerMenu">
+      <div class="hamburger-line"></div>
+      <div class="hamburger-line"></div>
+      <div class="hamburger-line"></div>
+    </button>
+
+    <div class="screen">
+      <div class="div loading">
+        <div class="overlap" id="profileCard">
+          <div class="overlap-group">
+            <div class="text-wrapper">Mari888</div>
+            <div class="text-wrapper-2">ID 9192679121</div>
+          </div>
+          <div class="overlap-2" id="balanceCard">
+            <div class="overlap-3">
+              <div class="text-wrapper-3">ბალანსი</div>
+              <div class="overlap-4">
+                <div class="overlap-group-2">
+                  <div class="text-wrapper-4" id="balanceAmount">0.00</div>
+                  <img class="line" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/line-21.svg" />
+                </div>
+                <img class="img" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/line-20.svg" />
+              </div>
+            </div>
+            <div class="text-wrapper-5" id="topUpBtn">შევსება</div>
+          </div>
+          <div class="overlap-5" id="pointsCard">
+            <div class="group">
+              <div class="text-wrapper-6">დაგროვებული ქულა</div>
+              <div class="text-wrapper-7" id="pointsAmount">0 ქულა</div>
+            </div>
+            <img class="line-2" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/line-22.svg" />
+          </div>
+          <div class="text-wrapper-8" data-action="add-listing">განცხადების დამატება</div>
+          <div class="text-wrapper-9" data-action="my-listings">ჩემი განცხადებები</div>
+          <div class="text-wrapper-10" data-action="my-cards">ჩემი ბარათები</div>
+          <div class="text-wrapper-11" data-action="my-orders">ჩემი შეკვეთები</div>
+          <div class="text-wrapper-12" data-action="offers">შეთავაზებები</div>
+          <div class="overlap-6">
+            <div class="text-wrapper-13" data-action="addresses">მისამართები</div>
+            <div class="text-wrapper-14" data-action="messages">წერილები</div>
+            <div class="text-wrapper-15" data-action="cart">ჩემი კალათა</div>
+          </div>
+          <div class="overlap-7">
+            <div class="text-wrapper-16" data-action="settings">პარამეტრები</div>
+            <div class="text-wrapper-17" data-action="logout">გასვლა</div>
+          </div>
+          <img class="image" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/image-135.png" />
+          <img class="image-2" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/image-136.png" />
+          <img class="image-3" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/image-137.png" />
+          <img class="image-4" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/image-138.png" />
+          <img class="image-5" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/image-139.png" />
+          <img class="image-6" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/image-140.png" />
+          <img class="image-7" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/image-142.png" />
+          <img class="image-8" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/image-143.png" />
+          <img class="vector" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/vector-4.svg" />
+          <img class="vector-2" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/vector-1.svg" />
+          <img class="image-9" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/image-145.png" />
+          <img class="ellipse" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/ellipse-3981.png" id="profileImage" />
+        </div>
+        <div class="overlap-8" id="messagesPanel">
+          <div class="overlap-9">
+            <div class="overlap-10">
+              <img class="line-3" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/line-16.svg" />
+              <div class="rectangle"></div>
+              <div class="text-wrapper-18">Villego.ge</div>
+              <p class="p">თქვენი მოთხოვნა დაკმყოფილებულია, გმადლობთ, რომ სარგებლობთ ჩვენი მომსახურებით...</p>
+            </div>
+            <div class="overlap-11">
+              <img class="rectangle-2" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/rectangle-2500.svg" />
+              <div class="text-wrapper-19">შემოსული</div>
+            </div>
+            <div class="div-wrapper" id="blockedTab"><div class="text-wrapper-20">დაბლოკილი</div></div>
+            <div class="overlap-12" id="searchUser">
+              <img class="image-10" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/image-144.png" />
+              <div class="text-wrapper-21">მომხმარებლის ძებნა</div>
+            </div>
+            <div class="overlap-13">
+              <div class="rectangle-3"></div>
+              <div class="text-wrapper-22">ფერმა "რაისი"</div>
+              <p class="element">30 კგ კარტოფილის და 10-10 კგ კიტრი-პომიდვრის&nbsp;&nbsp;ღირებულებაა...</p>
+            </div>
+            <div class="overlap-14">
+              <div class="rectangle-4"></div>
+              <div class="text-wrapper-23">რანჩო ვარიანში</div>
+              <div class="text-wrapper-24">ჩვენი ფერმერები კვალიფიცირებულნი არიან....</div>
+            </div>
+            <div class="overlap-15">
+              <div class="rectangle-4"></div>
+              <div class="text-wrapper-25">რანჩო კახეთში</div>
+              <p class="text-wrapper-26">ჩვენ გთავაზობთ ხარისხიან და დაბალიუჯეტიან პროდუქტებს...</p>
+            </div>
+            <div class="overlap-16">
+              <div class="rectangle-5"></div>
+              <div class="element-2">შეკვეთას მიიღებთ&nbsp;&nbsp;7წუთში...</div>
+              <div class="text-wrapper-27">გიორგი</div>
+            </div>
+          </div>
+          <div class="overlap-17">
+            <div class="rectangle-6"></div>
+            <div class="text-wrapper-28">VilleGo.ge</div>
+            <img class="rectangle-7" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/rectangle-683.png" />
+          </div>
+          <div class="element-villago-vip-vip-wrapper">
+            <p class="element-villago-vip-vip">
+              განახლებული სატარიფო პირობები ფასიან სერვისებზე<br /> გაცნობებთ, რომ 5 სექტემბრიდან იცვლება Villago-ს
+              ფასიანი სერვისებით სარგებლობის პირობები. ცვლილება შეეხება შემდეგ სერვისებს: Vip; Vip+; Super Vip<br /> ფასიანი
+              მომსახურებების განახლებული სატარიფო პირობები შეგიძლიათ ნახოთ ბმულზე: https://www.villego.ge/
+            </p>
+          </div>
+          <div class="overlap-18" id="messageInput">
+            <div class="vector-wrapper" id="sendBtn">
+              <img class="vector-3" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/vector-3.svg" />
+            </div>
+            <div class="text-wrapper-29" contenteditable="true" id="messageText">მე: გამოვაგზავნე კურიერი</div>
+            <img class="vector-4" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/vector-8.svg" />
+          </div>
+        </div>
+        <div class="text-wrapper-30">შეტყობინებები</div>
+        <div class="text-wrapper-31">მთავარი</div>
+        <div class="text-wrapper-32">/პროფილი</div>
+        <img class="group-2" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/group-1732.png" />
+        <div class="v">
+          <div class="overlap-19">
+            <div class="overlap-group-3">
+              <div class="rectangle-8"></div>
+              <div class="text-wrapper-33" id="logoMain">VilleGo</div>
+              <div class="text-wrapper-34" data-action="blog">ბლოგი</div>
+              <div class="text-wrapper-35" data-action="farmers">ფერმერები</div>
+              <div class="text-wrapper-36" data-action="about">ჩვენს შესახებ</div>
+              <div class="text-wrapper-37" data-action="contact">კონტაქტი</div>
+              <div class="rectangle-9"></div>
+              <img class="vector-5" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/vector-10.svg" />
+              <div class="text-wrapper-38" id="searchBtn">ძებნა</div>
+              <div class="text-wrapper-39" data-action="map">რუკა</div>
+              <img class="image-11" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/-------.png" />
+              <img class="vector-6" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/vector-7.svg" />
+              <img class="vector-7" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/vector-9.svg" />
+              <img class="vector-8" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/vector-6.svg" />
+              <img class="plus-circle" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/plus-circle---1441-.svg" />
+              <img class="ellipse-2" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/ellipse-3981.png" />
+            </div>
+            <img class="group-3" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/group-1859.png" />
+          </div>
+        </div>
+        <div class="v-2">
+          <div class="overlap-20">
+            <div class="overlap-21">
+              <img class="line-4" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/line-7.svg" />
+              <div class="generic-phone-mock" id="phonePreview">
+                <div class="overlap-group-4">
+                  <img class="speaker-camera" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/speaker---camera.png" />
+                  <img class="frame" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/frame.png" />
+                  <img
+                    class="screen-mask-put"
+                    src="https://c.animaapp.com/mfi80bqgvYcBNM/img/screen-mask--put-design-here-.png"
+                  />
+                </div>
+              </div>
+              <div class="mobile-app-store" id="microsoftStore">
+                <img class="microsoft" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/microsoft.svg" />
+                <img class="get-it-from" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/get-it-from.svg" />
+                <div class="microsoft-logo">
+                  <div class="rectangle-10"></div>
+                  <div class="rectangle-11"></div>
+                  <div class="rectangle-12"></div>
+                  <div class="rectangle-13"></div>
+                </div>
+              </div>
+              <div class="mobile-app-store-2" id="appStore">
+                <img class="app-store" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/app-store.svg" />
+                <img class="download-on-the" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/download-on-the.svg" />
+                <img class="apple-logo" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/apple-logo.svg" />
+              </div>
+              <div class="mobile-app-store-3" id="googlePlay">
+                <img class="google-play" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/google-play.svg" />
+                <img class="get-it-on" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/get-it-on.svg" />
+                <div class="google-play-logo"></div>
+              </div>
+              <img class="image-12" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/image-103.png" />
+              <div class="ville-go-wrapper">
+                <p class="ville-go">
+                  <span class="span">ჩამოტვირთე </span> <span class="text-wrapper-40">VilleGo</span>
+                </p>
+              </div>
+            </div>
+            <img class="profile" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/profile.png" />
+            <div class="text-wrapper-41">დახმარება</div>
+            <div class="text-wrapper-42">ხშირად დასმული კითხვები</div>
+            <div class="text-wrapper-43">ანონიმური უკუკავშირი</div>
+            <div class="text-wrapper-44">ინფორმაცია</div>
+            <div class="text-wrapper-45">გაყიდვის პირობები</div>
+            <div class="text-wrapper-46">წესები და პირობები</div>
+            <div class="text-wrapper-47">მომხმარებელი</div>
+            <div class="text-wrapper-48">რეგისტრაცია</div>
+            <div class="text-wrapper-49">მომხმარებლის გვერდი</div>
+            <p class="ville-go-2">
+              <span class="text-wrapper-40">VilleGo</span>
+              <span class="text-wrapper-50">&nbsp;</span>
+              <span class="text-wrapper-51">ფერმერიდან მომხმარებლამდე, შუამავალის გარეშე!</span>
+            </p>
+            <div class="group-4">
+              <img class="group-5" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/group-234.png" />
+              <div class="text-wrapper-52" id="phoneNumber">555 88 88 88</div>
+            </div>
+            <div class="group-6">
+              <div class="text-wrapper-53">მიცკევიჩის N25;</div>
+              <img class="group-7" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/group-246.png" />
+            </div>
+            <div class="group-8">
+              <img class="subtract" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/subtract.svg" />
+              <div class="text-wrapper-54" id="emailAddress">VilleGoLLC@gmail.com</div>
+            </div>
+            <div class="text-wrapper-55">კონტაქტი:</div>
+          </div>
+          <img class="vector-9" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/vector-2.svg" />
+          <div class="overlap-22">
+            <p class="element-villego-LLC">
+              <span class="text-wrapper-56">@ 2025 Villego.LLC</span>
+              <span class="text-wrapper-57">&nbsp;</span>
+              <span class="text-wrapper-58">ყველა უფლება დაცულია</span>
+            </p>
+            <div class="text-wrapper-59">საქართველო</div>
+          </div>
+          <div class="text-wrapper-60">დახმარების გვერდი</div>
+          <div class="text-wrapper-61">ჩვენს შესახებ</div>
+          <div class="text-wrapper-62">დაბრუნების პოლიტიკა</div>
+          <div class="text-wrapper-63">კონფიდენციალურობის პოლიტიკა</div>
+          <div class="text-wrapper-64">ფავორიტები</div>
+          <div class="text-wrapper-65">კალათა</div>
+          <img class="vector-10" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/vector-5.svg" />
+          <img class="d" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/d.svg" />
+          <div class="img-wrapper">
+            <img class="vector-11" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/vector.svg" />
+          </div>
+          <img class="image-13" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/------.png" />
+          <img class="image-14" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/----------------.png" />
+          <img class="image-15" src="https://c.animaapp.com/mfi80bqgvYcBNM/img/----------.png" />
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

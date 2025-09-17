@@ -1,0 +1,356 @@
+:root {
+  --grayswhite: rgba(255, 255, 255, 1);
+}
+
+.screen {
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.screen .overlap-wrapper {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 1080px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.screen .overlap {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+}
+
+.screen .image {
+  position: absolute;
+  width: 1920px;
+  height: 923px;
+  top: 157px;
+  left: 0;
+  object-fit: cover;
+}
+
+.screen .black-map-with-white {
+  position: absolute;
+  width: 1400px;
+  height: 923px;
+  top: 157px;
+  left: 260px;
+}
+
+.screen .view {
+  position: absolute;
+  width: 361px;
+  height: 61px;
+  top: 208px;
+  left: 780px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.screen .view:hover {
+  transform: scale(1.05);
+}
+
+.screen .overlap-group {
+  position: relative;
+  width: 361px;
+  height: 61px;
+  background-color: #007f5f;
+  border-radius: 50px;
+}
+
+.screen .text-wrapper {
+  height: 37px;
+  top: 12px;
+  left: 45px;
+  font-family: "Inria Sans", Helvetica;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .v {
+  position: absolute;
+  width: 1920px;
+  height: 150px;
+  top: 0;
+  left: 0;
+}
+
+.screen .div {
+  position: relative;
+  width: 1920px;
+  height: 150px;
+}
+
+.screen .overlap-2 {
+  position: absolute;
+  width: 1920px;
+  height: 150px;
+  top: 0;
+  left: 0;
+}
+
+.screen .rectangle {
+  position: absolute;
+  width: 1920px;
+  height: 81px;
+  top: 69px;
+  left: 0;
+  background-color: #007f5f;
+}
+
+.screen .text-wrapper-2 {
+  position: absolute;
+  top: 0;
+  left: 873px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 600;
+  color: #007f5f;
+  font-size: 54px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.screen .text-wrapper-2:hover {
+  color: #005a43;
+}
+
+.screen .text-wrapper-3 {
+  top: 93px;
+  left: 190px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  font-size: 17px;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.screen .text-wrapper-4 {
+  top: 93px;
+  left: 291px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  font-size: 17px;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.screen .text-wrapper-5 {
+  top: 93px;
+  left: 512px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  font-size: 17px;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.screen .text-wrapper-6 {
+  top: 93px;
+  left: 675px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  font-size: 17px;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.screen .rectangle-2 {
+  position: absolute;
+  width: 830px;
+  height: 45px;
+  top: 87px;
+  left: 790px;
+  background-color: #7fbf8e;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.screen .search-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: transparent;
+  color: #ffffff;
+  font-family: "Roboto", Helvetica;
+  font-size: 18px;
+  padding-left: 35px;
+  outline: none;
+}
+
+.screen .search-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.screen .vector {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 97px;
+  left: 800px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.screen .vector:hover {
+  transform: scale(1.1);
+}
+
+.screen .text-wrapper-8 {
+  top: 93px;
+  left: 430px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  font-size: 17px;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.screen .img {
+  position: absolute;
+  width: 49px;
+  height: 58px;
+  top: 72px;
+  left: 65px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.screen .img:hover {
+  transform: scale(1.1);
+}
+
+.screen .vector-2 {
+  width: 21px;
+  height: 21px;
+  top: 95px;
+  left: 1787px;
+  position: absolute;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.screen .vector-3 {
+  width: 24px;
+  height: 24px;
+  top: 94px;
+  left: 1742px;
+  position: absolute;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.screen .vector-4 {
+  width: 30px;
+  height: 24px;
+  top: 94px;
+  left: 1691px;
+  position: absolute;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.screen .plus-circle {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 96px;
+  left: 1648px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.screen .ellipse {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 95px;
+  left: 1831px;
+  border: 1px solid;
+  border-color: #000000;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.screen .group {
+  position: absolute;
+  width: 44px;
+  height: 22px;
+  top: 12px;
+  left: 1808px;
+}
+
+.nav-item:hover {
+  color: #7fbf8e !important;
+}
+
+.social-icon:hover,
+.add-btn:hover,
+.profile-btn:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 1920px) {
+  .screen .overlap-wrapper {
+    width: 100vw;
+  }
+  
+  .screen .overlap {
+    width: 100vw;
+  }
+  
+  .screen .rectangle {
+    width: 100vw;
+  }
+  
+  .screen .v {
+    width: 100vw;
+  }
+  
+  .screen .div {
+    width: 100vw;
+  }
+  
+  .screen .overlap-2 {
+    width: 100vw;
+  }
+  
+  .screen .image {
+    width: 100vw;
+  }
+}

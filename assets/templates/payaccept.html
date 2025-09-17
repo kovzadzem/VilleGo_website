@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/payacceptglobals.css" />
+    <link rel="stylesheet" href="../css/payacceptstyle.css" />
+    <script src="../js/payacceptscript.js" defer></script>
+  </head>
+  <body>
+    <div class="screen">
+      <div class="div">
+        <div class="overlap"><div class="text-wrapper">შემოწმება</div></div>
+        <div class="frame">
+        <div class="frame-2">
+          <div class="text-wrapper-2">სახელი</div>
+          <div class="frame-3">
+            <input type="text" class="form-input" placeholder="შეიყვანეთ სახელი" id="firstName">
+          </div>
+        </div>
+        <div class="frame-2">
+          <div class="text-wrapper-2">გვარი</div>
+          <div class="frame-4">
+            <input type="text" class="form-input" placeholder="შეიყვანეთ გვარი" id="lastName">
+          </div>
+        </div>
+        <div class="frame-2">
+          <div class="text-wrapper-3">მისამართი</div>
+          <div class="frame-4">
+            <input type="text" class="form-input" placeholder="შეიყვანეთ მისამართი" id="address">
+          </div>
+        </div>
+        <div class="frame-2">
+          <div class="text-wrapper-3">სადარბაზო, სართული და ა.შ</div>
+          <div class="frame-5">
+            <input type="text" class="form-input" placeholder="სადარბაზო, სართული" id="apartment">
+          </div>
+        </div>
+        <div class="frame-2">
+          <div class="text-wrapper-3">ქალაქი/დაბა</div>
+          <div class="frame-6">
+            <input type="text" class="form-input" placeholder="შეიყვანეთ ქალაქი" id="city">
+          </div>
+        </div>
+        <div class="frame-2">
+          <div class="text-wrapper-3">ტელეფონის ნომერი</div>
+          <div class="frame-7">
+            <input type="tel" class="form-input" placeholder="შეიყვანეთ ტელეფონი" id="phone">
+          </div>
+        </div>
+        <div class="frame-8">
+          <div class="text-wrapper-3">ელფოსტა</div>
+          <div class="frame-7">
+            <input type="email" class="form-input" placeholder="შეიყვანეთ ელფოსტა" id="email">
+          </div>
+        </div>
+        </div>
+        <div class="overlap-group">
+          <div class="rectangle"></div>
+          <div class="rectangle-2"></div>
+          <img class="img" src="https://c.animaapp.com/mfib59sro3GQSt/img/rectangle-2306.png" />
+          <img class="rectangle-3" src="https://c.animaapp.com/mfib59sro3GQSt/img/rectangle-2307.png" />
+          <p class="p">
+            <span class="span">ვაშლატამი<br /></span>
+            <span class="text-wrapper-4">ფერმა “რაისი”<br /></span>
+            <span class="span"><br /><br /></span>
+          </p>
+          <p class="div-2">
+            <span class="span">მალინა<br /></span> <span class="text-wrapper-4">ფერმა “რაისი”</span>
+          </p>
+          <div class="quantity-controls">
+            <button class="quantity-btn" onclick="changeQuantity('apple', -1)">-</button>
+            <div class="quantity-display" id="apple-qty">1</div>
+            <button class="quantity-btn" onclick="changeQuantity('apple', 1)">+</button>
+          </div>
+          <div class="quantity-controls">
+            <button class="quantity-btn" onclick="changeQuantity('raspberry', -1)">-</button>
+            <div class="quantity-display" id="raspberry-qty">1</div>
+            <button class="quantity-btn" onclick="changeQuantity('raspberry', 1)">+</button>
+          </div>
+          <div class="text-wrapper-7">15 კგ</div>
+          <div class="text-wrapper-8">25 კგ</div>
+          <div class="text-wrapper-9">22,5 ₾</div>
+          <div class="text-wrapper-10">125 ₾</div>
+        </div>
+        <div class="overlap-2">
+          <div class="overlap-3">
+            <img class="rectangle-4" src="https://c.animaapp.com/mfib59sro3GQSt/img/rectangle-2305.png" />
+            <p class="div-3">
+              <span class="text-wrapper-11">კარტოფილი <br /></span> <span class="text-wrapper-12">ფერმა “რაისი”</span>
+            </p>
+          </div>
+          <div class="quantity-controls">
+            <button class="quantity-btn" onclick="changeQuantity('potato', -1)">-</button>
+            <div class="quantity-display" id="potato-qty">1</div>
+            <button class="quantity-btn" onclick="changeQuantity('potato', 1)">+</button>
+          </div>
+          <div class="text-wrapper-14">20 კგ</div>
+          <div class="text-wrapper-15">16 ₾</div>
+        </div>
+        <div class="overlap-4">
+          <img class="rectangle-5" src="https://c.animaapp.com/mfib59sro3GQSt/img/rectangle-2311.png" />
+          <p class="div-4">
+            <span class="span">კიტრი<br /></span> <span class="text-wrapper-4">ფერმა “რაისი”</span>
+          </p>
+          <div class="quantity-controls">
+            <button class="quantity-btn" onclick="changeQuantity('cucumber', -1)">-</button>
+            <div class="quantity-display" id="cucumber-qty">1</div>
+            <button class="quantity-btn" onclick="changeQuantity('cucumber', 1)">+</button>
+          </div>
+          <div class="text-wrapper-7">10კგ</div>
+          <div class="text-wrapper-16">8 ₾</div>
+        </div>
+        <div class="overlap-5">
+          <img class="rectangle-6" src="https://c.animaapp.com/mfib59sro3GQSt/img/rectangle-2312.png" />
+          <p class="div-5">
+            <span class="span">პომიდორი<br /></span> <span class="text-wrapper-4">ფერმა “რაისი”</span>
+          </p>
+          <div class="quantity-controls">
+            <button class="quantity-btn" onclick="changeQuantity('tomato', -1)">-</button>
+            <div class="quantity-display" id="tomato-qty">1</div>
+            <button class="quantity-btn" onclick="changeQuantity('tomato', 1)">+</button>
+          </div>
+          <div class="text-wrapper-18">10 კგ</div>
+          <div class="text-wrapper-19">15 ₾</div>
+        </div>
+        <div class="overlap-6">
+          <div class="frame-9">
+            <div class="cart-total">ჯამი</div>
+            <div class="frame-10">
+              <div class="div-6">მიწოდება</div>
+              <p class="div-6"><span class="text-wrapper-20">5</span> <span class="text-wrapper-21">₾</span></p>
+            </div>
+            <div class="frame-11"><div class="div-6">გადასახადი:</div></div>
+            <button class="button"><div class="view-all-products">შემოწმება</div></button>
+            <div class="under-line">
+              <img class="line" src="https://c.animaapp.com/mfib59sro3GQSt/img/line-1.svg" />
+            </div>
+            <div class="line-wrapper">
+              <img class="line" src="https://c.animaapp.com/mfib59sro3GQSt/img/line-1.svg" />
+            </div>
+          </div>
+          <p class="free"><span class="text-wrapper-20">5</span> <span class="text-wrapper-21">₾</span></p>
+          <div class="text-wrapper-22">საფასური</div>
+          <p class="element" id="subtotal"><span class="text-wrapper-20">186,5</span> <span class="text-wrapper-21">₾</span></p>
+          <p class="element-2" id="total"><span class="text-wrapper-20">191,5</span> <span class="text-wrapper-21">₾</span></p>
+        </div>
+        <div class="frame-12">
+          <div class="frame-13" onclick="selectPayment('bank')">
+            <div class="radio-button" id="bank-radio"></div>
+            <div class="text-wrapper-23">Bank</div>
+          </div>
+          <div class="frame-14">
+            <div class="image-wrapper">
+              <img class="image" src="https://c.animaapp.com/mfib59sro3GQSt/img/image-32.png" />
+            </div>
+            <div class="image-wrapper">
+              <img class="image-2" src="https://c.animaapp.com/mfib59sro3GQSt/img/image-30.png" />
+            </div>
+            <div class="image-wrapper">
+              <img class="image-3" src="https://c.animaapp.com/mfib59sro3GQSt/img/image-31.png" />
+            </div>
+            <div class="image-wrapper">
+              <img class="image-4" src="https://c.animaapp.com/mfib59sro3GQSt/img/image-33.png" />
+            </div>
+          </div>
+        </div>
+        <div class="frame-15" onclick="selectPayment('cash')">
+          <div class="radio-button" id="cash-radio"><div class="ellipse"></div></div>
+          <div class="text-wrapper-23">Cash on delivery</div>
+        </div>
+        <div class="overlap-7">
+          <div class="coupon-code">
+            <div class="frame-16">
+              <input type="text" class="form-input" placeholder="შეიყვანეთ პრომო კოდი" id="promoCode">
+            </div>
+            <button class="view-all-products-wrapper" onclick="applyPromoCode()"><div class="view-all-products">მითითება</div></button>
+          </div>
+          <div class="text-wrapper-24">პრომო კოდი</div>
+        </div>
+        <button class="div-wrapper" onclick="placeOrder()"><div class="view-all-products">შეკვეთის განთავსება</div></button>
+        <img class="icon-checkbox" src="https://c.animaapp.com/mfib59sro3GQSt/img/icon-checkbox.svg" onclick="toggleSaveInfo()" id="saveInfoCheckbox" />
+        <div class="text-wrapper-25" onclick="toggleSaveInfo()">ინფორმაციის დამახსოვრება</div>
+        <div class="v">
+          <div class="overlap-8">
+            <div class="overlap-group-2">
+              <div class="rectangle-7"></div>
+              <div class="text-wrapper-26">VilleGo</div>
+              <div class="text-wrapper-27">ბლოგი</div>
+              <div class="text-wrapper-28">ფერმერები</div>
+              <div class="text-wrapper-29">ჩვენს შესახებ</div>
+              <div class="text-wrapper-30">კონტაქტი</div>
+              <div class="rectangle-8"></div>
+              <img class="vector" src="https://c.animaapp.com/mfib59sro3GQSt/img/vector-1.svg" />
+              <div class="text-wrapper-31">ძებნა</div>
+              <div class="text-wrapper-32">რუკა</div>
+              <img class="image-5" src="https://c.animaapp.com/mfib59sro3GQSt/img/-------.png" />
+              <img class="vector-2" src="https://c.animaapp.com/mfib59sro3GQSt/img/vector-4.svg" />
+              <img class="vector-3" src="https://c.animaapp.com/mfib59sro3GQSt/img/vector.svg" />
+              <img class="vector-4" src="https://c.animaapp.com/mfib59sro3GQSt/img/vector-6.svg" />
+              <img class="plus-circle" src="https://c.animaapp.com/mfib59sro3GQSt/img/plus-circle---1441-.svg" />
+              <img class="ellipse-2" src="https://c.animaapp.com/mfib59sro3GQSt/img/ellipse-3981.png" />
+            </div>
+            <img class="group-6" src="https://c.animaapp.com/mfib59sro3GQSt/img/group-1859.png" />
+          </div>
+        </div>
+        <div class="v-2">
+          <div class="overlap-9">
+            <div class="overlap-10">
+              <img class="line-2" src="https://c.animaapp.com/mfib59sro3GQSt/img/line-7.svg" />
+              <div class="generic-phone-mock">
+                <div class="overlap-group-3">
+                  <img class="speaker-camera" src="https://c.animaapp.com/mfib59sro3GQSt/img/speaker---camera.png" />
+                  <img class="frame-17" src="https://c.animaapp.com/mfib59sro3GQSt/img/frame.png" />
+                  <img
+                    class="screen-mask-put"
+                    src="https://c.animaapp.com/mfib59sro3GQSt/img/screen-mask--put-design-here-.png"
+                  />
+                </div>
+              </div>
+              <div class="mobile-app-store">
+                <img class="microsoft" src="https://c.animaapp.com/mfib59sro3GQSt/img/microsoft.svg" />
+                <img class="get-it-from" src="https://c.animaapp.com/mfib59sro3GQSt/img/get-it-from.svg" />
+                <div class="microsoft-logo">
+                  <div class="rectangle-9"></div>
+                  <div class="rectangle-10"></div>
+                  <div class="rectangle-11"></div>
+                  <div class="rectangle-12"></div>
+                </div>
+              </div>
+              <div class="mobile-app-store-2">
+                <img class="app-store" src="https://c.animaapp.com/mfib59sro3GQSt/img/app-store.svg" />
+                <img class="download-on-the" src="https://c.animaapp.com/mfib59sro3GQSt/img/download-on-the.svg" />
+                <img class="apple-logo" src="https://c.animaapp.com/mfib59sro3GQSt/img/apple-logo.svg" />
+              </div>
+              <div class="mobile-app-store-3">
+                <img class="google-play" src="https://c.animaapp.com/mfib59sro3GQSt/img/google-play.svg" />
+                <img class="get-it-on" src="https://c.animaapp.com/mfib59sro3GQSt/img/get-it-on.svg" />
+                <div class="google-play-logo"></div>
+              </div>
+              <img class="image-6" src="https://c.animaapp.com/mfib59sro3GQSt/img/image-103.png" />
+              <div class="ville-go-wrapper">
+                <p class="ville-go">
+                  <span class="text-wrapper-33">ჩამოტვირთე </span> <span class="text-wrapper-34">VilleGo</span>
+                </p>
+              </div>
+            </div>
+            <img class="profile" src="https://c.animaapp.com/mfib59sro3GQSt/img/profile.png" />
+            <div class="text-wrapper-35">დახმარება</div>
+            <div class="text-wrapper-36">ხშირად დასმული კითხვები</div>
+            <div class="text-wrapper-37">ანონიმური უკუკავშირი</div>
+            <div class="text-wrapper-38">ინფორმაცია</div>
+            <div class="text-wrapper-39">გაყიდვის პირობები</div>
+            <div class="text-wrapper-40">წესები და პირობები</div>
+            <div class="text-wrapper-41">მომხმარებელი</div>
+            <div class="text-wrapper-42">რეგისტრაცია</div>
+            <div class="text-wrapper-43">მომხმარებლის გვერდი</div>
+            <p class="ville-go-2">
+              <span class="text-wrapper-34">VilleGo</span>
+              <span class="text-wrapper-44">&nbsp;</span>
+              <span class="text-wrapper-45">ფერმერიდან მომხმარებლამდე, შუამავალის გარეშე!</span>
+            </p>
+            <div class="group-7">
+              <img class="group-8" src="https://c.animaapp.com/mfib59sro3GQSt/img/group-234.png" />
+              <div class="text-wrapper-46">555 88 88 88</div>
+            </div>
+            <div class="group-9">
+              <div class="text-wrapper-47">მიცკევიჩის N25;</div>
+              <img class="group-10" src="https://c.animaapp.com/mfib59sro3GQSt/img/group-246.png" />
+            </div>
+            <div class="group-11">
+              <img class="subtract" src="https://c.animaapp.com/mfib59sro3GQSt/img/subtract.svg" />
+              <div class="text-wrapper-48">VilleGoLLC@gmail.com</div>
+            </div>
+            <div class="text-wrapper-49">კონტაქტი:</div>
+          </div>
+          <img class="vector-5" src="https://c.animaapp.com/mfib59sro3GQSt/img/vector-3.svg" />
+          <div class="overlap-11">
+            <p class="element-villego-LLC">
+              <span class="text-wrapper-50">@ 2025 Villego.LLC</span>
+              <span class="text-wrapper-51">&nbsp;</span>
+              <span class="text-wrapper-52">ყველა უფლება დაცულია</span>
+            </p>
+            <div class="text-wrapper-53">საქართველო</div>
+          </div>
+          <div class="text-wrapper-54">დახმარების გვერდი</div>
+          <div class="text-wrapper-55">ჩვენს შესახებ</div>
+          <div class="text-wrapper-56">დაბრუნების პოლიტიკა</div>
+          <div class="text-wrapper-57">კონფიდენციალურობის პოლიტიკა</div>
+          <div class="text-wrapper-58">ფავორიტები</div>
+          <div class="text-wrapper-59">კალათა</div>
+          <img class="vector-6" src="https://c.animaapp.com/mfib59sro3GQSt/img/vector-2.svg" />
+          <img class="d" src="https://c.animaapp.com/mfib59sro3GQSt/img/d.svg" />
+          <div class="vector-wrapper">
+            <img class="vector-7" src="https://c.animaapp.com/mfib59sro3GQSt/img/vector-5.svg" />
+          </div>
+          <img class="image-7" src="https://c.animaapp.com/mfib59sro3GQSt/img/------.png" />
+          <img class="image-8" src="https://c.animaapp.com/mfib59sro3GQSt/img/----------------.png" />
+          <img class="image-9" src="https://c.animaapp.com/mfib59sro3GQSt/img/----------.png" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
