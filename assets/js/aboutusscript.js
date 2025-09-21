@@ -18,36 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Smooth scrolling for navigation links
-function initSmoothScrolling() {
-    const navLinks = document.querySelectorAll('.text-wrapper-13, .text-wrapper-14, .text-wrapper-15, .text-wrapper-16, .text-wrapper-18');
-    
-    navLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const targetText = this.textContent.trim();
-            
-            // Scroll to different sections based on nav text
-            switch(targetText) {
-                case 'ბლოგი':
-                    scrollToSection('.text-wrapper');
-                    break;
-                case 'ფერმერები':
-                    scrollToSection('.overlap-group');
-                    break;
-                case 'ჩვენს შესახებ':
-                    scrollToSection('.overlap');
-                    break;
-                case 'კონტაქტი':
-                    scrollToSection('.v-2');
-                    break;
-                case 'რუკა':
-                    scrollToSection('.profile');
-                    break;
-            }
-        });
-    });
-}
+
 
 // Scroll to specific section
 function scrollToSection(selector) {
